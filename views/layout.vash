@@ -1,25 +1,14 @@
 <html>
   <head>
     <link href="./css/index.css" rel='stylesheet'/>
-    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.0/angular-route.js"></script>
-    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-animate.min.js"></script>
-    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-aria.min.js"></script>
-    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-messages.min.js"></script>
+    <script src="https://unpkg.com/vue@2.6.1/dist/vue.js"></script>
+    <script src="https://unpkg.com/axios@0.18.0/dist/axios.js"></script>
 
   </head>
     <body>
-
       <div style="padding: 20px; border: 5px solid red; margin: 20px;">
-
-        <div ng-view style="width: 100%"></div>
-
       </div>
-
     </div>
-
-    <script src="./scripts/indexController.js"></script>
     <script src="./scripts/main.js"></script>
-
   </body>
 </html>
